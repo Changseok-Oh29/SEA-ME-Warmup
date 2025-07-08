@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Car.h
+string
+-
+
+../include/SportsCar.h
+Car.h
+../include/Car.h
+
+/home/chang/SEA-ME-Warmup/SDV_prob/main.cpp
+SportsCar.h
+/home/chang/SEA-ME-Warmup/SDV_prob/SportsCar.h
+memory
+-
+
