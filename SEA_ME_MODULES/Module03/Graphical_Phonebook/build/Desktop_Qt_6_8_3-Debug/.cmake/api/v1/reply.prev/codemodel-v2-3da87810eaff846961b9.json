@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b20ba0074dea87fcf643.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Module3",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Module3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Module3-Debug-75f31b5cf2114675a3c6.json",
+					"name" : "Module3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Module3_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Module3_autogen-Debug-4343589e160c9179f1e8.json",
+					"name" : "Module3_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Module3_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Module3_autogen_timestamp_deps-Debug-41f45a27e6e7f3262e96.json",
+					"name" : "Module3_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/chang/Module3/build/Desktop_Qt_6_8_3-Debug",
+		"source" : "/home/chang/Module3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
