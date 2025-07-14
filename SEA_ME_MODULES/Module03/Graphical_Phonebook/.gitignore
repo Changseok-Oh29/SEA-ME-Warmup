@@ -1,0 +1,31 @@
+# ── 빌드 산출물 ───────────────────────────────────────
+build/
+cmake-build-*/
+
+# CMake 관련
+CMakeFiles/
+CMakeCache.txt
+Makefile
+install_manifest.txt
+
+# ── Qt 관련 자동 생성 파일 ───────────────────────────
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# ── IDE 설정 및 개인 환경 파일 ────────────────────────
+*.user
+*.pro.user
+*.autosave
+
+# ── 오브젝트 파일 · 바이너리 ──────────────────────────
+*.o
+*.obj
+*.lo
+*.exe
+*.out
+*.app
+
+# ── 운영체제 숨김 파일 ───────────────────────────────
+.DS_Store
+Thumbs.db
